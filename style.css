@@ -36,3 +36,33 @@ body {
 body {
     line-height: 1.5;
 }
+/* Styl dla przycisku z obrazem */
+.image-button {
+    display: inline-block;
+    background-image: url('bluzka-opium.png');
+    background-size: contain; /* Dopasuj rozmiar obrazu do przycisku */
+    width: 200px; /* Dostosuj szerokość i wysokość przycisku do rozmiaru obrazu */
+    height: 50px;
+    text-indent: -9999px; /* Ukryj tekst linku */
+}
+/* Dodatkowy styl dla kontenera przycisku */
+.product-button {
+    text-align: center; /* Centrowanie zawartości */
+    padding: 20px; /* Wewnętrzny odstęp */
+}
+
+/* Styl dla przycisku z ramką */
+.product-button .btn {
+    border: 2px solid white;
+    border-radius: 10px; /* Zaokrąglenie rogów */
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+/* Dodatkowy styl dla obrazu w przycisku */
+.product-button img {
+    display: block; /* Usunięcie spacji pod obrazem */
+    margin: 0 auto; /* Centrowanie obrazu */
+    max-width: 100%;
+    height: auto;
+}
