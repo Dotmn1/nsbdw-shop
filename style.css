@@ -19,10 +19,10 @@ body {
     padding: 20px;
 }
 
-/* Styl dla przycisku */
+/* Styl przycisku */
 .btn {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 30px; /* Zmieniamy padding, aby dostosować wysokość przycisku */
     background-color: black;
     border: 2px solid white;
     border-radius: 50px;
@@ -30,7 +30,11 @@ body {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    width: 300px; /* Ustalamy szerokość przycisków */
+    text-align: center; /* Centrujemy tekst w przyciskach */
+    margin-right: 10px; /* Dodajemy odstęp między przyciskami */
 }
+
 
 /* Styl dla całej strony z większą interlinią */
 body {
@@ -66,4 +70,15 @@ body {
     margin: 0 auto; /* Centrowanie obrazu */
     max-width: 100%;
     height: auto;
+}
+
+/* Styl przycisku "btn-wide" */
+.btn-wide {
+    width: 200px; /* Dostosuj szerokość przycisków według preferencji */
+}
+
+/* Styl kontenera dla tekstu w przycisku */
+.btn-text {
+    display: inline; /* Wyświetl tekst obok siebie */
+    margin-right: 10px; /* Dodaj odstęp między tekstem przycisków */
 }
