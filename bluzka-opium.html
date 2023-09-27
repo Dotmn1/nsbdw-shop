@@ -3,19 +3,34 @@
 <head>
     <link rel="icon" href="nowy_awatar.png" type="image/x-icon">
     <link rel="shortcut icon" href="nowy_awatar.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opis bluzki opium</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Nasze Sociale</title>
 </head>
 <body>
     <a href="sklep-z-przedmiotami.html" class="btn back-button">Wroc</a>
-    <h1>Bluzka opium designed by nsbdw</h1>
-    <p>Tutaj sie zrobi jakis opis bluzki czy cos</p>
+    <div class="center-container" id="sklep">
+        <h1>Nasze Sociale</h1>
+        <div class="container">
+            <a href="https://www.instagram.com/nsbdw_studio/" class="btn social-button">
+                <img src="logoig.png" alt="Instagram" width="100">
+                <span>Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/@nsbdw" class="btn social-button">
+                <img src="logoyt.png" alt="YouTube" width="100">
+                <span>YouTube</span>
+            </a>
+            <a href="https://open.spotify.com/artist/6tfkCZzzL8IkJ4AKghYlIK?si=FdUgxnHASeOFhfypdz3cJg" class="btn social-button">
+                <img src="logospotify.png" alt="Spotify" width="100">
+                <span>Spotify</span>
+            </a>
+        </div>
+    </div>
     <script>
-        document.querySelector(".btn").addEventListener("click", function() {
+        document.querySelector(".back-button").addEventListener("click", function() {
             history.back();
         });
-    </script>
+    </script> 
 </body>
 </html>
