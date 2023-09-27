@@ -8,29 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Nasze Sociale</title>
     <style>
-        /* Dodaj styl dla napisu "NSBDW" i "NVZ" */
+        /* Styl dla podtytułów */
         .nsbdw {
-            font-size: 26px; /* Dostosuj rozmiar tekstu według własnych preferencji */
+            font-size: 26px;
         }
-        /* Dodaj styl dla kontenera sekcji "NSBDW" i "NVZ" */
         .sections-container {
             display: flex;
             align-items: center;
         }
-        /* Dodaj styl dla sekcji "NVZ" */
         .nvz-section {
             flex: 1;
         }
-        /* Dodaj styl dla mniejszych ekranów (telefonów komórkowych) */
         @media (max-width: 768px) {
             .sections-container {
-                flex-direction: column; /* Układ pionowy na mniejszych ekranach */
-                text-align: center; /* Wyśrodkuj zawartość */
+                flex-direction: column;
+                text-align: center;
             }
-            /* Styl dla obu sekcji na mniejszych ekranach */
             .nsbdw-section, .nvz-section {
-                flex: initial; /* Resetuj elastyczność */
-                width: 100%; /* Rozciągnij na całą szerokość ekranu */
+                flex: initial;
+                width: 100%;
             }
         }
     </style>
