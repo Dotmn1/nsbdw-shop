@@ -17,14 +17,21 @@
             display: flex;
             align-items: center;
         }
-        /* Dodaj styl dla sekcji "NSBDW" */
-        .nsbdw-section {
-            flex: 1;
-            padding-right: 20px; /* Dodaj odstęp między sekcjami */
-        }
         /* Dodaj styl dla sekcji "NVZ" */
         .nvz-section {
             flex: 1;
+        }
+        /* Dodaj styl dla mniejszych ekranów (telefonów komórkowych) */
+        @media (max-width: 768px) {
+            .sections-container {
+                flex-direction: column; /* Układ pionowy na mniejszych ekranach */
+                text-align: center; /* Wyśrodkuj zawartość */
+            }
+            /* Styl dla obu sekcji na mniejszych ekranach */
+            .nsbdw-section, .nvz-section {
+                flex: initial; /* Resetuj elastyczność */
+                width: 100%; /* Rozciągnij na całą szerokość ekranu */
+            }
         }
     </style>
 </head>
