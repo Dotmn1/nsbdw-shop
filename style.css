@@ -1,0 +1,33 @@
+/* style.css */
+@font-face {
+    font-family: 'Opium';
+    src: url('OPIUM.TTF') format('truetype');
+}
+
+/* Styl dla całej strony */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Opium', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+}
+
+/* Styl dla przycisku */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: 'Opium', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
