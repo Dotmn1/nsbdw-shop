@@ -137,31 +137,3 @@ img {
     color: white;
     margin-top: 20px;
 }
-
-/* Styl dla nagłówka (header) */
-.header {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-/* Styl dla loga (logo) */
-.logo {
-    margin-left: auto; /* Przesuń logo na prawą stronę */
-    margin-right: 10px; /* Dodaj odstęp od prawego marginesu */
-}
-
-/* Styl dla tytułu strony (site-title) */
-.site-title {
-    font-size: 24px; /* Dostosuj rozmiar tekstu */
-    display: flex; /* Użyj flexbox do wyśrodkowania w pionie */
-    align-items: center; /* Wyśrodkuj w pionie */
-    margin-right: 20px; /* Dodaj odstęp od prawego marginesu */
-}
-
-
-/* Styl dla obrazu w logo (logo img) */
-.logo img {
-    max-width: 100px;
-    height: auto;
-}
