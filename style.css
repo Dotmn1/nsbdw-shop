@@ -31,3 +31,8 @@ body {
     color: white;
     text-decoration: none;
 }
+
+/* Styl dla całej strony z większą interlinią */
+body {
+    line-height: 1.5;
+}
