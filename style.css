@@ -1,4 +1,5 @@
 /* style.css */
+
 @font-face {
     font-family: 'Opium';
     src: url('OPIUM.TTF') format('truetype');
@@ -12,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    line-height: 1.5;
 }
 
 .container {
@@ -22,7 +24,7 @@ body {
 /* Styl przycisku */
 .btn {
     display: inline-block;
-    padding: 15px 30px; /* Zmieniamy padding, aby dostosować wysokość przycisku */
+    padding: 15px 30px;
     background-color: black;
     border: 2px solid white;
     border-radius: 50px;
@@ -30,11 +32,10 @@ body {
     font-size: 24px;
     color: white;
     text-decoration: none;
-    width: 300px; /* Ustalamy szerokość przycisków */
-    text-align: center; /* Centrujemy tekst w przyciskach */
-    margin-right: 10px; /* Dodajemy odstęp między przyciskami */
+    width: 300px;
+    text-align: center;
+    margin-right: 10px;
 }
-
 
 /* Styl dla całej strony z większą interlinią */
 body {
@@ -45,40 +46,122 @@ body {
 .image-button {
     display: inline-block;
     background-image: url('bluzka-opium.png');
-    background-size: contain; /* Dopasuj rozmiar obrazu do przycisku */
-    width: 200px; /* Dostosuj szerokość i wysokość przycisku do rozmiaru obrazu */
+    background-size: contain;
+    width: 200px;
     height: 50px;
-    text-indent: -9999px; /* Ukryj tekst linku */
+    text-indent: -9999px;
 }
+
 /* Dodatkowy styl dla kontenera przycisku */
 .product-button {
-    text-align: center; /* Centrowanie zawartości */
-    padding: 20px; /* Wewnętrzny odstęp */
+    text-align: center;
+    padding: 20px;
 }
 
 /* Styl dla przycisku z ramką */
 .product-button .btn {
     border: 2px solid white;
-    border-radius: 10px; /* Zaokrąglenie rogów */
+    border-radius: 10px;
     display: inline-block;
     padding: 15px 30px;
 }
 
 /* Dodatkowy styl dla obrazu w przycisku */
 .product-button img {
-    display: block; /* Usunięcie spacji pod obrazem */
-    margin: 0 auto; /* Centrowanie obrazu */
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
 
 /* Styl przycisku "btn-wide" */
 .btn-wide {
-    width: 200px; /* Dostosuj szerokość przycisków według preferencji */
+    width: 200px;
 }
 
 /* Styl kontenera dla tekstu w przycisku */
 .btn-text {
-    display: inline; /* Wyświetl tekst obok siebie */
-    margin-right: 10px; /* Dodaj odstęp między tekstem przycisków */
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Styl przycisków mediów społecznościowych */
+.social-button {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Styl dla loga w przycisku */
+.social-button img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+/* Styl dla napisu w przycisku */
+.social-button span {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Styl dla obrazu */
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Styl dla kontenera wyśrodkowanego w pionie */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styl dla przycisku "Wroc" */
+.back-button {
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Styl dla nagłówka (header) */
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styl dla loga (logo) */
+.logo {
+    margin-left: auto; /* Przesuń logo na prawą stronę */
+    margin-right: 10px; /* Dodaj odstęp od prawego marginesu */
+}
+
+/* Styl dla tytułu strony (site-title) */
+.site-title {
+    font-size: 24px; /* Dostosuj rozmiar tekstu */
+    display: flex; /* Użyj flexbox do wyśrodkowania w pionie */
+    align-items: center; /* Wyśrodkuj w pionie */
+    margin-right: 20px; /* Dodaj odstęp od prawego marginesu */
+}
+
+
+/* Styl dla obrazu w logo (logo img) */
+.logo img {
+    max-width: 100px;
+    height: auto;
 }

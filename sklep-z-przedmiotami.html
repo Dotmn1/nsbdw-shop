@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <link rel="icon" href="nowy_awatar.png" type="image/x-icon">
+    <link rel="shortcut icon" href="nowy_awatar.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sklep z przedmiotami</title>
 </head>
 <body>
-    <a href="index.html" class="btn">Wroc</a>
+    <a href="index.html" class="btn back-button">Wroc</a>
     <div class="product-button">
         <a href="bluzka-opium.html" class="btn">
             <img src="bluzka-opium.png" alt="Bluzka Opium">
@@ -17,7 +19,7 @@
         </a>
     </div>
     <script>
-        document.querySelector(".btn").addEventListener("click", function() {
+        document.querySelector(".back-button").addEventListener("click", function() {
             history.back();
         });
     </script>    
