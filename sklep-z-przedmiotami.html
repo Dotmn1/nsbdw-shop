@@ -7,6 +7,7 @@
     <title>Sklep z przedmiotami</title>
 </head>
 <body>
+    <a href="index.html" class="btn">Wroc</a>
     <div class="product-button">
         <a href="bluzka-opium.html" class="btn">
             <img src="bluzka-opium.png" alt="Bluzka Opium">
@@ -15,5 +16,10 @@
             <p>Cena: 2137.69 zł</p>
         </a>
     </div>
+    <script>
+        document.querySelector(".btn").addEventListener("click", function() {
+            history.back(); // Wróć do poprzedniej strony
+        });
+    </script>    
 </body>
 </html>
