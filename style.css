@@ -5,7 +5,11 @@
     src: url('OPIUM.TTF') format('truetype');
 }
 
-/* Styl dla całej strony */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styl dla calej strony */
 body {
     background-color: black;
     color: white;
@@ -36,7 +40,7 @@ body {
     text-align: center;
 }
 
-/* Styl dla całej strony z większą interlinią */
+/* Styl dla calej strony interlinia */
 body {
     line-height: 1.5;
 }
@@ -57,7 +61,7 @@ body {
     padding: 20px;
 }
 
-/* Styl dla przycisku z ramką */
+/* Styl dla przycisku z ramka */
 .product-button .btn {
     border: 2px solid white;
     border-radius: 10px;
@@ -84,7 +88,7 @@ body {
     margin-right: 10px;
 }
 
-/* Styl przycisków mediów społecznościowych */
+/* Styl przyciskow social media */
 .social-button {
     display: flex;
     align-items: center;
@@ -117,7 +121,7 @@ img {
     height: auto;
 }
 
-/* Styl dla kontenera wyśrodkowanego w pionie */
+/* Styl dla kontenera wysrodkowanego w pionie */
 .center-container {
     display: flex;
     flex-direction: column;
