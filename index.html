@@ -6,16 +6,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Strona NSBDW</title>
+    <style>
+        /* Styl dla paska nawigacyjnego */
+        .navbar {
+            position: fixed; /* Ustala pozycję na stałe */
+            top: 0; /* Przykleja pasek do górnej krawędzi ekranu */
+            left: 0; /* Przykleja pasek do lewej krawędzi ekranu */
+            width: 240px; /* Szerokość paska nawigacyjnego */
+            height: 100%; /* Wysokość równa wysokości okna przeglądarki */
+            background-color: black; /* Kolor tła - czarny */
+            color: white; /* Kolor tekstu - biały */
+            padding: 20px; /* Odstęp wewnątrz paska nawigacyjnego */
+        }
+
+        /* Styl dla tekstu w pasku nawigacyjnym */
+        .navbar h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styl dla głównej treści */
+        .main-content {
+            margin-left: 220px; /* Margines po lewej stronie, aby ustąpić miejsce dla paska nawigacyjnego */
+            padding: 20px;
+        }
+    </style>
+    <title>Moja Strona</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Witaj na stronie NSBDW</h1>
-        <p>Kliknij przycisk na dole</p>
-        <a href="sklep-z-przedmiotami.html" class="btn">Sklep</a>
-    </div>
-    <div class="container">
-        <a href="social-media.html" class="btn">Social Media</a>
+    <!-- Pasek nawigacyjny -->
+    <div class="navbar">
+        <h2>Nawigacja</h2>
+        <ul>
+            <li><a href="index.html">Strona glowna</a></li>
+            <li><a href="social-media.html">Artysci</a></li>
+            <li><a href="sklep-z-przedmiotami.html">Ubrania</a></li>
+        </ul>
     </div>
 </body>
 </html>

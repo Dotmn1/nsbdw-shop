@@ -11,7 +11,7 @@ html {
 
 /* Styl dla calej strony */
 body {
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: 'Opium', sans-serif;
     margin: 0;
@@ -29,7 +29,6 @@ body {
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: black;
     border: 2px solid white;
     border-radius: 50px;
     font-family: 'Opium', sans-serif;
@@ -133,10 +132,18 @@ img {
 .back-button {
     font-size: 24px;
     padding: 15px 30px;
-    background-color: black;
     border: 2px solid white;
     border-radius: 50px;
     text-decoration: none;
     color: white;
     margin-top: 20px;
 }
+
+ a {
+    color: white;
+    text-decoration: none;
+ }
+
+ a:hover {
+    color: red;
+ }
