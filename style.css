@@ -5,10 +5,6 @@
     src: url('OPIUM.TTF') format('truetype');
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* Styl dla całej strony */
 body {
     background-color: black;
