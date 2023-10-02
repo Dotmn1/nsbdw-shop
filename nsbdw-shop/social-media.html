@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Nasze Sociale</title>
     <style>
-        /* Styl dla podtytułów */
         .nsbdw {
             font-size: 26px;
         }
@@ -40,6 +39,8 @@
             background-color: black; 
             color: white; 
             padding: 20px; 
+            line-height: 2;
+            font-size: 24px;
         }
 
         .navbar h2 {
@@ -48,39 +49,53 @@
         }
 
         .main-content {
-            margin-left: 220px;
-            padding: 20px;
+            flex-grow: 1;
+            padding: 260px;
+            text-align: center;
         }
     </style>
+    <title>Sklep z przedmiotami</title>
 </head>
 <body>
+    <div class="navbar">
+        <h2>Nawigacja</h2>
+        <ul>
+            <li><a href="/">Strona glowna</a></li>
+            <li><a href="social-media.html">Artysci</a></li>
+            <li><a href="sklep-z-przedmiotami.html">Ubrania</a></li>
+        </ul>
+    </div>
     <div class="center-container" id="media">
         <h1>Nasze Sociale</h1>
         <div class="sections-container">
-            <!-- Sekcja "NSBDW" -->
             <div class="nsbdw-section">
                 <span class="nsbdw">NSBDW</span>
                 <div class="container">
-                    <a href="https://www.instagram.com/nsbdw_studio/" class="btn social-button">
-                        <img src="logoig.png" alt="Instagram" width="100">
-                        <span>Instagram</span>
-                    </a>
-                    <a href="https://www.youtube.com/@nsbdw" class="btn social-button">
-                        <img src="logoyt.png" alt="YouTube" width="100">
-                        <span>YouTube</span>
-                    </a>
-                    <a href="https://open.spotify.com/artist/6tfkCZzzL8IkJ4AKghYlIK?si=FdUgxnHASeOFhfypdz3cJg" class="btn social-button">
-                        <img src="logospotify.png" alt="Spotify" width="100">
-                        <span>Spotify</span>
-                    </a>
+                    <div class="social-button-container">
+                        <a href="https://www.instagram.com/nvz_nsbdw/" class="btn social-button">
+                            <img src="logoig.png" alt="Instagram" width="100">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div class="social-button-container">
+                        <a href="https://www.youtube.com/@nvz_nsbdw" class="btn social-button">
+                            <img src="logoyt.png" alt="YouTube" width="100">
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                    <div class="social-button-container">
+                        <a href="https://open.spotify.com/artist/7rvODmGlEvX3B3wAC0jgyz" class="btn social-button">
+                            <img src="logospotify.png" alt="Spotify" width="100">
+                            <span>Spotify</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <!-- Sekcja "NVZ" -->
             <div class="nvz-section">
                 <span class="nsbdw">NVZ</span>
                 <div class="container">
                     <a href="https://www.instagram.com/nvz_nsbdw/" class="btn social-button">
-                        <img src="logoig.png" alt="Instagram" width="100">
+                        <img src="logoig.png" alt="Instagram" width="100" margin="20px">
                         <span>Instagram</span>
                     </a>
                     <a href="https://www.youtube.com/@nvz_nsbdw" class="btn social-button">
@@ -93,7 +108,6 @@
                     </a>
                 </div>
             </div>
-            <!-- Sekcja "daku" -->
             <div class="nvz-section">
                 <span class="nsbdw">DAKU</span>
                 <div class="container">
@@ -111,7 +125,6 @@
                     </a>
                 </div>
             </div>
-            <!-- Sekcja "francuz" -->
             <div class="nvz-section">
                 <span class="nsbdw">OGFRANCUZ</span>
                 <div class="container">
@@ -123,18 +136,13 @@
                         <img src="logoyt.png" alt="YouTube" width="100">
                         <span>YouTube</span>
                     </a>
+                    <a href="https://open.spotify.com/artist/6kvHOpJKny20IxDx2hUerc?si=7WI6FO5bQCS4juAPm9p1dg" class="btn social-button">
+                        <img src="logospotify.png" alt="Spotify" width="100">
+                        <span>Spotify</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- navbar -->
-    <div class="navbar">
-        <h2>Nawigacja</h2>
-        <ul>
-            <li><a href="index.html">Strona glowna</a></li>
-            <li><a href="social-media.html">Artysci</a></li>
-            <li><a href="sklep-z-przedmiotami.html">Ubrania</a></li>
-        </ul>
     </div>
 </body>
 </html>

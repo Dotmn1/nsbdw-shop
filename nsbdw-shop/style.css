@@ -1,37 +1,23 @@
 /* style.css */
 
 @font-face {
-    font-family: 'Opium';
-    src: url('OPIUM.TTF') format('truetype');
+    font-family: 'NunitoSans';
+    src: url('NunitoSans.ttf') format('truetype');
 }
 
+body {
+    font-family: 'NunitoSans', sans-serif;
+}
 html {
     scroll-behavior: smooth;
 }
 
-/* Styl dla calej strony */
-body {
-    background-color: white;
-    color: black;
-    font-family: 'Opium', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    line-height: 1,5;
-}
-
-.container {
-    max-width: 100%;
-    padding: 20px;
-}
-
-/* Styl przycisku */
 .btn {
     display: inline-block;
     padding: 15px 30px;
     border: 2px solid black;
     border-radius: 50px;
-    font-family: 'Opium', sans-serif;
+    font-family: 'NunitoSans', sans-serif;
     font-size: 24px;
     color: black;
     text-decoration: none;
@@ -39,15 +25,6 @@ body {
     text-align: center;
 }
 
-<<<<<<< HEAD
-/* Styl dla calej strony interlinia */
-body {
-    line-height: 3;
-}
-
-=======
->>>>>>> 16b7ebfde6f40a36076149850fc8249481ae7d9a
-/* Styl dla przycisku z obrazem */
 .image-button {
     display: inline-block;
     background-image: url('bluzka-opium.png');
@@ -57,13 +34,11 @@ body {
     text-indent: -9999px;
 }
 
-/* Dodatkowy styl dla kontenera przycisku */
 .product-button {
     text-align: center;
     padding: 20px;
 }
 
-/* Styl dla przycisku z ramka */
 .product-button .btn {
     border: 2px solid black;
     border-radius: 10px;
@@ -71,7 +46,6 @@ body {
     padding: 15px 30px;
 }
 
-/* Dodatkowy styl dla obrazu w przycisku */
 .product-button img {
     display: block;
     margin: 0 auto;
@@ -79,18 +53,15 @@ body {
     height: auto;
 }
 
-/* Styl przycisku "btn-wide" */
 .btn-wide {
     width: 200px;
 }
 
-/* Styl kontenera dla tekstu w przycisku */
 .btn-text {
     display: inline;
     margin-right: 10px;
 }
 
-/* Styl przyciskow social media */
 .social-button {
     display: flex;
     align-items: center;
@@ -102,14 +73,12 @@ body {
     color: black;
 }
 
-/* Styl dla loga w przycisku */
 .social-button img {
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
 }
 
-/* Styl dla napisu w przycisku */
 .social-button span {
     flex: 1;
     white-space: nowrap;
@@ -117,13 +86,11 @@ body {
     text-overflow: ellipsis;
 }
 
-/* Styl dla obrazu */
 img {
     max-width: 100px;
     height: auto;
 }
 
-/* Styl dla kontenera wysrodkowanego w pionie */
 .center-container {
     display: flex;
     flex-direction: column;
@@ -131,7 +98,6 @@ img {
     justify-content: center;
 }
 
-/* Styl dla przycisku "Wroc" */
 .back-button {
     font-size: 24px;
     padding: 15px 30px;
@@ -142,18 +108,70 @@ img {
     margin-top: 20px;
 }
 
-/* zmiana koloru linku */
- a {
+a {
     color: white;
     text-decoration: none;
- }
+}
 
- /* podswietlenie przycisku */
- a:hover {
+a:hover {
     color: red;
- }
+}
 
- /*navbar */
- .navbar {
-    line-height: 3;
- }
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 240px; 
+    height: 100%; 
+    background-color: black; 
+    color: white; 
+    padding: 20px; 
+}
+
+.navbar h2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 260px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    position: fixed;
+    top: 100px;
+    left: 40%;
+    width: 30%;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest-video-title {
+    position: relative;
+    background-color: #ff0000;
+    color: #fff;
+    top: -400px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 70%;
+}
