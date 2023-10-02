@@ -12,12 +12,12 @@ html {
 /* Styl dla calej strony */
 body {
     background-color: white;
-    color: white;
+    color: black;
     font-family: 'Opium', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1,5;
 }
 
 .container {
@@ -29,19 +29,14 @@ body {
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 50px;
     font-family: 'Opium', sans-serif;
     font-size: 24px;
-    color: white;
+    color: black;
     text-decoration: none;
     width: 300px;
     text-align: center;
-}
-
-/* Styl dla calej strony interlinia */
-body {
-    line-height: 3;
 }
 
 /* Styl dla przycisku z obrazem */
@@ -62,7 +57,7 @@ body {
 
 /* Styl dla przycisku z ramka */
 .product-button .btn {
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 10px;
     display: inline-block;
     padding: 15px 30px;
@@ -96,7 +91,7 @@ body {
     height: 50px;
     padding: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 /* Styl dla loga w przycisku */
@@ -132,18 +127,25 @@ img {
 .back-button {
     font-size: 24px;
     padding: 15px 30px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 50px;
     text-decoration: none;
-    color: white;
+    color: black;
     margin-top: 20px;
 }
 
+/* zmiana koloru linku */
  a {
     color: white;
     text-decoration: none;
  }
 
+ /* podswietlenie przycisku */
  a:hover {
     color: red;
+ }
+
+ /*navbar */
+ .navbar {
+    line-height: 3;
  }
